@@ -1,0 +1,28 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[ruby]": {
+    "editor.defaultFormatter": "rebornix.ruby"
+  },
+  "[erb]": {
+    "editor.defaultFormatter": "manuelpuyol.erb-linter"
+  },
+  "vscode-erb-beautify.useBundler": true,
+  "files.associations": {
+    "*.html.erb": "erb"
+  },
+  "editor.formatOnSave": true,
+
+  "ruby.useBundler": true, //run non-lint commands with bundle exec
+  "ruby.useLanguageServer": true, // use the internal language server (see below)
+  "ruby.intellisense": "rubyLocate",
+  "ruby.lint": {
+    "rubocop": {
+      "useBundler": true // enable rubocop via bundler
+    }
+  },
+  "ruby.format": "rubocop", // use rubocop for formatting
+  "solargraph.diagnostics": true,
+  "emmet.includeLanguages": {
+    "erb": "html"
+  }
+}
