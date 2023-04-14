@@ -9,4 +9,6 @@ RUN bundle config set force_ruby_platform true
 RUN bundle install  
 RUN rails webpacker:install
 ADD . /myapp
-RUN bundle install  
+
+RUN curl -sL https://deb.nodesource.com/setup_14.x | bash -
+RUN apt-get install -y nodejs
