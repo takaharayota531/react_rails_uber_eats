@@ -52,7 +52,9 @@
 "extensions": [
 	"esbenp.prettier-vscode",
 	"misogi.ruby-rubocop",
-	"rebornix.ruby"
+	"rebornix.ruby",
+	"dsznajder.es7-react-js-snippets",
+	"burkeholland.simple-react-snippets"
 ]
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
